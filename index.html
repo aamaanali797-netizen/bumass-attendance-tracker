@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker | Premium Dark</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Attendance <span>Tracker</span></h1>
+            <p>Master your schedule with precision.</p>
+        </header>
+
+        <section class="add-subject-section">
+            <div class="glass-card">
+                <input type="text" id="subjectInput" placeholder="Enter subject name (e.g., Physics)..." autocomplete="off">
+                <button id="addSubjectBtn">Add Subject</button>
+            </div>
+        </section>
+
+        <main id="subjectsContainer" class="subjects-grid">
+            <!-- Subjects will be dynamically added here -->
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
